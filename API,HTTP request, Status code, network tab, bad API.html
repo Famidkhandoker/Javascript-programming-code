@@ -1,0 +1,75 @@
+//---------------------------------------------------------------API,HTTP request, Status code, network tab, bad API ------------------------------------
+
+//404 Not Found show korbe website kono vul information / data khuje na paile
+//200 ok Data paile website e show korbe
+
+
+
+
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Document</title>
+// </head>
+// <body>
+//     <h1>JSON</h1>
+//     <h2>JavaScript Object Notation</h2>
+//     <ul id="user-container">
+
+//     </ul>
+//     <!-- <script src="index.js"></script> -->
+//     <script>
+//         //website Example
+//        // fetch('https://jsonplaceholder.typicode.com/todos/1')
+//            // .then(response => response.json())
+//            // .then(json => console.log(json))//{userId: 1, id: 1, title: 'delectus aut autem', completed: false}
+
+//             //website RESOURCES 10 users// backend  er data server e thake
+
+//             //fetch('https://jsonplaceholder.typicode.com/users')
+//            // .then(response => response.json())
+//            // .then(json => console.log(json))//(10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+          
+
+//               //own website e data dekhte hole  
+
+//             fetch('https://jsonplaceholder.typicode.com/people')
+//             .then(response => response.json())
+//             .then(json => displayUser (json))
+//             .catch(error=> console.log(error))//TypeError: users.map is not a function
+//                                                 // at displayUser (index.html:38:44)
+//                                                //at index.html:32:27
+                                                
+//             function displayUser(users){
+//                  //console.log("users",users); //users
+//                                             // (10) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}] 
+//                     const userNames= users.map(user =>user.username);
+//                     //console.log(userNames);//(10) ['Bret', 'Antonette', 'Samantha', 'Karianne', 'Kamren', 'Leopoldo_Corkery', 'Elwyn.Skiles', 'Maxime_Nienow', 'Delphine', 'Moriah.Stanton']
+//                     const ul=document.getElementById("user-container")
+//                     for(let i=0;i<userNames.length;i++)
+//                     {
+//                         const username=userNames[i];
+//                         const li=document.createElement("li");
+//                         li.innerText =username;
+//                         ul.appendChild(li);
+//                     }
+//             }
+//             //---------------------------------/Browser show korbe--------------------------------
+//             // JSON
+//            // JavaScript Object Notation
+//            // Bret
+//            // Antonette
+//            // Samantha
+//           //  Karianne
+//            // Kamren
+//            // Leopoldo_Corkery
+//            // Elwyn.Skiles
+//            // Maxime_Nienow
+//            // Delphine
+//           //  Moriah.Stanton 
+
+//     </script>
+// </body>
+// </html>
